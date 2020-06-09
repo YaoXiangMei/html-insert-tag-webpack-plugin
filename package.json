@@ -1,6 +1,6 @@
 {
   "name": "html-insert-tag-webpack-plugin",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/YaoXiangMei/html-insert-tag-webpack-plugin.git"
   },
-  "keywords": [],
+  "keywords": [
+    "html-insert-tag",
+    "html-insert-tag-webpack-plugin",
+    "insert-tag"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/YaoXiangMei/html-insert-tag-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/YaoXiangMei/html-insert-tag-webpack-plugin#readme"
+  "homepage": "https://github.com/YaoXiangMei/html-insert-tag-webpack-plugin#readme",
+  "dependencies": {
+    "jsdom": "^16.2.2",
+    "schema-utils": "^2.7.0"
+  }
 }
